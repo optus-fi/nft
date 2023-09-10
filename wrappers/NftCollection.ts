@@ -128,7 +128,7 @@ export class NftCollection implements Contract {
         }
 
         await provider.internal(via, {
-            value: toNano('0.01') * BigInt(dict.size) + toNano('0.05'),
+            value: toNano('0.1') * BigInt(dict.size) + toNano('0.05'),
             sendMode: SendMode.PAY_GAS_SEPARATELY,
             body: beginCell().storeUint(2, 32).storeUint(0, 64).storeDict(dict).endCell(),
         });
