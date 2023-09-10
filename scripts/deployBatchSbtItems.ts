@@ -7,14 +7,14 @@ export async function run(provider: NetworkProvider) {
     const ui = provider.ui();
 
     const nftCollection = provider.open(
-        NftCollection.createFromAddress(Address.parse('EQCvvleli-ANUGQyW8HwDScoogBjq3P7xNCpNGg5ks5uQJ4W'))
+        NftCollection.createFromAddress(Address.parse('EQBwTO1wu1rTpzlN1EVtPuPpJKrCLXR9XGe5q3tvD9A22x0v'))
     );
 
     await nftCollection.sendBatchMint(provider.sender(), {
         sbts: [
             {
                 amount: toNano('0.1'),
-                ownerAddress: provider.sender().address as Address,
+                ownerAddress: Address.parse('EQBje3Ovqz8033oogPPm0i7n-eZsn4pgRRIsmQWCmk2_LYUp'),
                 authorityAddress: provider.sender().address as Address,
                 content:
                     'https://raw.githubusercontent.com/optus-fi/nft/master/scripts/sbt-bug-collection/items/json/1.json',
@@ -22,7 +22,7 @@ export async function run(provider: NetworkProvider) {
             },
             {
                 amount: toNano('0.1'),
-                ownerAddress: provider.sender().address as Address,
+                ownerAddress: Address.parse('EQBoVUrXov5_Es43D4Nw57tT0Q6NoxyLYbyPeqD2fh-wXOnD'),
                 authorityAddress: provider.sender().address as Address,
                 content:
                     'https://raw.githubusercontent.com/optus-fi/nft/master/scripts/sbt-bug-collection/items/json/2.json',
@@ -30,7 +30,7 @@ export async function run(provider: NetworkProvider) {
             },
             {
                 amount: toNano('0.1'),
-                ownerAddress: provider.sender().address as Address,
+                ownerAddress: Address.parse('EQAULcjDZ4TK9huUxR4Vl_Tfa8JRooU3bhvPrmHJHZIPGWkS'),
                 authorityAddress: provider.sender().address as Address,
                 content:
                     'https://raw.githubusercontent.com/optus-fi/nft/master/scripts/sbt-bug-collection/items/json/3.json',
@@ -38,7 +38,7 @@ export async function run(provider: NetworkProvider) {
             },
             {
                 amount: toNano('0.1'),
-                ownerAddress: provider.sender().address as Address,
+                ownerAddress: Address.parse('EQD-IS_-dhjmD0r8q-1H4xtpBJK_d-LoLxkNxXOTCJeGSVFQ'),
                 authorityAddress: provider.sender().address as Address,
                 content:
                     'https://raw.githubusercontent.com/optus-fi/nft/master/scripts/sbt-bug-collection/items/json/4.json',
@@ -46,7 +46,7 @@ export async function run(provider: NetworkProvider) {
             },
             {
                 amount: toNano('0.1'),
-                ownerAddress: provider.sender().address as Address,
+                ownerAddress: Address.parse('EQC36cAKxSIffCfJ8KazHr_UmB_yi_Hio3dTxhIbQxaz4Q_n'),
                 authorityAddress: provider.sender().address as Address,
                 content:
                     'https://raw.githubusercontent.com/optus-fi/nft/master/scripts/sbt-bug-collection/items/json/5.json',
@@ -54,7 +54,7 @@ export async function run(provider: NetworkProvider) {
             },
             {
                 amount: toNano('0.1'),
-                ownerAddress: provider.sender().address as Address,
+                ownerAddress: Address.parse('EQBkso325b1M-olNeqXUJblYxlqRqJ-PVZ8Q9nufBUqDNRHz'),
                 authorityAddress: provider.sender().address as Address,
                 content:
                     'https://raw.githubusercontent.com/optus-fi/nft/master/scripts/sbt-bug-collection/items/json/6.json',
@@ -62,7 +62,7 @@ export async function run(provider: NetworkProvider) {
             },
             {
                 amount: toNano('0.1'),
-                ownerAddress: provider.sender().address as Address,
+                ownerAddress: Address.parse('EQBMa4CqO8tK3SASTBAaNgdvX6oAB3fTTyUvb9uzwqd02T_u'),
                 authorityAddress: provider.sender().address as Address,
                 content:
                     'https://raw.githubusercontent.com/optus-fi/nft/master/scripts/sbt-bug-collection/items/json/7.json',
@@ -70,7 +70,7 @@ export async function run(provider: NetworkProvider) {
             },
             {
                 amount: toNano('0.1'),
-                ownerAddress: provider.sender().address as Address,
+                ownerAddress: Address.parse('EQBBFhvEYDRe36DGp5SgPkc4TjYF-deXrGgJmKm6xagFz_jV'),
                 authorityAddress: provider.sender().address as Address,
                 content:
                     'https://raw.githubusercontent.com/optus-fi/nft/master/scripts/sbt-bug-collection/items/json/8.json',
@@ -78,7 +78,7 @@ export async function run(provider: NetworkProvider) {
             },
             {
                 amount: toNano('0.1'),
-                ownerAddress: provider.sender().address as Address,
+                ownerAddress: Address.parse('EQC9I-9YAbbe9oqlXOvcD28rTGzHZIGG65p4I9q9BP-VPSQV'),
                 authorityAddress: provider.sender().address as Address,
                 content:
                     'https://raw.githubusercontent.com/optus-fi/nft/master/scripts/sbt-bug-collection/items/json/9.json',
@@ -86,7 +86,7 @@ export async function run(provider: NetworkProvider) {
             },
             {
                 amount: toNano('0.1'),
-                ownerAddress: provider.sender().address as Address,
+                ownerAddress: Address.parse('EQCX0M7_pQrL7e2jnVYZnXWpJzCK_Z4ryYCWU1qT9I6jdIas'),
                 authorityAddress: provider.sender().address as Address,
                 content:
                     'https://raw.githubusercontent.com/optus-fi/nft/master/scripts/sbt-bug-collection/items/json/10.json',
@@ -94,7 +94,7 @@ export async function run(provider: NetworkProvider) {
             },
             {
                 amount: toNano('0.1'),
-                ownerAddress: provider.sender().address as Address,
+                ownerAddress: Address.parse('EQBvwehN5KbiPtkbVRykIr7DNcaaWSZunrVgHifm9DWZdneN'),
                 authorityAddress: provider.sender().address as Address,
                 content:
                     'https://raw.githubusercontent.com/optus-fi/nft/master/scripts/sbt-bug-collection/items/json/11.json',
@@ -102,7 +102,7 @@ export async function run(provider: NetworkProvider) {
             },
             {
                 amount: toNano('0.1'),
-                ownerAddress: provider.sender().address as Address,
+                ownerAddress: Address.parse('EQCcKVb8U6MfMOe0Uhg7OkUBjFpahGQ153pH53dMcrf2idhF'),
                 authorityAddress: provider.sender().address as Address,
                 content:
                     'https://raw.githubusercontent.com/optus-fi/nft/master/scripts/sbt-bug-collection/items/json/12.json',
@@ -110,7 +110,7 @@ export async function run(provider: NetworkProvider) {
             },
             {
                 amount: toNano('0.1'),
-                ownerAddress: provider.sender().address as Address,
+                ownerAddress: Address.parse('EQBvjxCZVZZpXcXXxza7KzsgjTeqlxMZquDpVAiTfRuy3VOp'),
                 authorityAddress: provider.sender().address as Address,
                 content:
                     'https://raw.githubusercontent.com/optus-fi/nft/master/scripts/sbt-bug-collection/items/json/13.json',
@@ -118,7 +118,7 @@ export async function run(provider: NetworkProvider) {
             },
             {
                 amount: toNano('0.1'),
-                ownerAddress: provider.sender().address as Address,
+                ownerAddress: Address.parse('EQBQczAAl-wXgAu_IsOmfJH3D5QOS75t2GMBZvsdJWBTmKmZ'),
                 authorityAddress: provider.sender().address as Address,
                 content:
                     'https://raw.githubusercontent.com/optus-fi/nft/master/scripts/sbt-bug-collection/items/json/14.json',
@@ -126,7 +126,7 @@ export async function run(provider: NetworkProvider) {
             },
             {
                 amount: toNano('0.1'),
-                ownerAddress: provider.sender().address as Address,
+                ownerAddress: Address.parse('EQB6OVtqtBE5FZtJUH2gjMQKQWVA47wVsgwLD7fHU3DUppgL'),
                 authorityAddress: provider.sender().address as Address,
                 content:
                     'https://raw.githubusercontent.com/optus-fi/nft/master/scripts/sbt-bug-collection/items/json/15.json',
@@ -134,7 +134,7 @@ export async function run(provider: NetworkProvider) {
             },
             {
                 amount: toNano('0.1'),
-                ownerAddress: provider.sender().address as Address,
+                ownerAddress: Address.parse('EQD3GL2JmcKCQWojLoEOFLcJ9JzyGZJtGAqssuXKUGckkYc3'),
                 authorityAddress: provider.sender().address as Address,
                 content:
                     'https://raw.githubusercontent.com/optus-fi/nft/master/scripts/sbt-bug-collection/items/json/16.json',
@@ -142,7 +142,7 @@ export async function run(provider: NetworkProvider) {
             },
             {
                 amount: toNano('0.1'),
-                ownerAddress: provider.sender().address as Address,
+                ownerAddress: Address.parse('EQDzsDO8TJbDjqBo7GTamaGQdFulguY__QLket5BYIcg8Y1M'),
                 authorityAddress: provider.sender().address as Address,
                 content:
                     'https://raw.githubusercontent.com/optus-fi/nft/master/scripts/sbt-bug-collection/items/json/17.json',
@@ -150,7 +150,7 @@ export async function run(provider: NetworkProvider) {
             },
             {
                 amount: toNano('0.1'),
-                ownerAddress: provider.sender().address as Address,
+                ownerAddress: Address.parse('EQCk_NSgb3MZTfS1XWqDzaJuugePMlDWi6G0KuEre41DjGVn'),
                 authorityAddress: provider.sender().address as Address,
                 content:
                     'https://raw.githubusercontent.com/optus-fi/nft/master/scripts/sbt-bug-collection/items/json/18.json',
@@ -158,7 +158,7 @@ export async function run(provider: NetworkProvider) {
             },
             {
                 amount: toNano('0.1'),
-                ownerAddress: provider.sender().address as Address,
+                ownerAddress: Address.parse('EQDfk7H4RAahn3bD-sjQDbD7Ddo7OrrxoBa87Yv52eaYa8nP'),
                 authorityAddress: provider.sender().address as Address,
                 content:
                     'https://raw.githubusercontent.com/optus-fi/nft/master/scripts/sbt-bug-collection/items/json/19.json',
@@ -166,7 +166,7 @@ export async function run(provider: NetworkProvider) {
             },
             {
                 amount: toNano('0.1'),
-                ownerAddress: provider.sender().address as Address,
+                ownerAddress: Address.parse('EQBdyNuqAaY_VwVfPB3_IpIh8S6ZjkpaAh22Mzxh8OqeuId0'),
                 authorityAddress: provider.sender().address as Address,
                 content:
                     'https://raw.githubusercontent.com/optus-fi/nft/master/scripts/sbt-bug-collection/items/json/20.json',
@@ -174,7 +174,7 @@ export async function run(provider: NetworkProvider) {
             },
             {
                 amount: toNano('0.1'),
-                ownerAddress: provider.sender().address as Address,
+                ownerAddress: Address.parse('EQBkso325b1M-olNeqXUJblYxlqRqJ-PVZ8Q9nufBUqDNRHz'),
                 authorityAddress: provider.sender().address as Address,
                 content:
                     'https://raw.githubusercontent.com/optus-fi/nft/master/scripts/sbt-bug-collection/items/json/21.json',
@@ -182,7 +182,7 @@ export async function run(provider: NetworkProvider) {
             },
             {
                 amount: toNano('0.1'),
-                ownerAddress: provider.sender().address as Address,
+                ownerAddress: Address.parse('EQB_W45vYlQvuzRhc_KFZtOGyvCDgDk6sDtjv4JODWWaAms6'),
                 authorityAddress: provider.sender().address as Address,
                 content:
                     'https://raw.githubusercontent.com/optus-fi/nft/master/scripts/sbt-bug-collection/items/json/22.json',
@@ -190,7 +190,7 @@ export async function run(provider: NetworkProvider) {
             },
             {
                 amount: toNano('0.1'),
-                ownerAddress: provider.sender().address as Address,
+                ownerAddress: Address.parse('EQC5aj2p6ClvTKx2-jWjSBrYbWTS_S2moHW4mRh2QOq1Um6x'),
                 authorityAddress: provider.sender().address as Address,
                 content:
                     'https://raw.githubusercontent.com/optus-fi/nft/master/scripts/sbt-bug-collection/items/json/23.json',
@@ -198,7 +198,7 @@ export async function run(provider: NetworkProvider) {
             },
             {
                 amount: toNano('0.1'),
-                ownerAddress: provider.sender().address as Address,
+                ownerAddress: Address.parse('EQBzFtzPPMhzBi_JJ_lVqym00Vh6LYXzfBQM8U6UfESOL26k'),
                 authorityAddress: provider.sender().address as Address,
                 content:
                     'https://raw.githubusercontent.com/optus-fi/nft/master/scripts/sbt-bug-collection/items/json/24.json',
@@ -206,7 +206,7 @@ export async function run(provider: NetworkProvider) {
             },
             {
                 amount: toNano('0.1'),
-                ownerAddress: provider.sender().address as Address,
+                ownerAddress: Address.parse('EQCmAvd4kMenzBLW_S7k4tBGfXyKmct7Mj-dDqPz8VYmaBsC'),
                 authorityAddress: provider.sender().address as Address,
                 content:
                     'https://raw.githubusercontent.com/optus-fi/nft/master/scripts/sbt-bug-collection/items/json/25.json',
@@ -214,7 +214,7 @@ export async function run(provider: NetworkProvider) {
             },
             {
                 amount: toNano('0.1'),
-                ownerAddress: provider.sender().address as Address,
+                ownerAddress: Address.parse('EQDwycePAhrGWDm0AGMhpou7Mt5QJfhMhTy51160iU0ISPen'),
                 authorityAddress: provider.sender().address as Address,
                 content:
                     'https://raw.githubusercontent.com/optus-fi/nft/master/scripts/sbt-bug-collection/items/json/26.json',
@@ -222,7 +222,7 @@ export async function run(provider: NetworkProvider) {
             },
             {
                 amount: toNano('0.1'),
-                ownerAddress: provider.sender().address as Address,
+                ownerAddress: Address.parse('EQBbuLYqOg3MfXlp-bDJOPfduDkhS9r7zjxdLP1WfAI9r0rJ'),
                 authorityAddress: provider.sender().address as Address,
                 content:
                     'https://raw.githubusercontent.com/optus-fi/nft/master/scripts/sbt-bug-collection/items/json/27.json',
@@ -230,7 +230,7 @@ export async function run(provider: NetworkProvider) {
             },
             {
                 amount: toNano('0.1'),
-                ownerAddress: provider.sender().address as Address,
+                ownerAddress: Address.parse('EQCdTdEa0Y8xZwrFHBgoPtyVzEkF0eT1FYJCe4ioFXeCCryz'),
                 authorityAddress: provider.sender().address as Address,
                 content:
                     'https://raw.githubusercontent.com/optus-fi/nft/master/scripts/sbt-bug-collection/items/json/28.json',
@@ -238,7 +238,7 @@ export async function run(provider: NetworkProvider) {
             },
             {
                 amount: toNano('0.1'),
-                ownerAddress: provider.sender().address as Address,
+                ownerAddress: Address.parse('EQDrDwXelSnPa2xEOBferOuuQ_2Bpm7cD2zRQyIkyTB-u_o9'),
                 authorityAddress: provider.sender().address as Address,
                 content:
                     'https://raw.githubusercontent.com/optus-fi/nft/master/scripts/sbt-bug-collection/items/json/29.json',
@@ -246,7 +246,7 @@ export async function run(provider: NetworkProvider) {
             },
             {
                 amount: toNano('0.1'),
-                ownerAddress: provider.sender().address as Address,
+                ownerAddress: Address.parse('EQDmTPPD9J56AmCl4lihRQs-rEUx2ynAb_ovkbhA_1PLCKlu'),
                 authorityAddress: provider.sender().address as Address,
                 content:
                     'https://raw.githubusercontent.com/optus-fi/nft/master/scripts/sbt-bug-collection/items/json/30.json',
@@ -254,7 +254,7 @@ export async function run(provider: NetworkProvider) {
             },
             {
                 amount: toNano('0.1'),
-                ownerAddress: provider.sender().address as Address,
+                ownerAddress: Address.parse('EQDRjynZD026yQ57zDRwilONb0Qlb1dbL-BMghmB2Gzb8ACb'),
                 authorityAddress: provider.sender().address as Address,
                 content:
                     'https://raw.githubusercontent.com/optus-fi/nft/master/scripts/sbt-bug-collection/items/json/31.json',
@@ -262,7 +262,7 @@ export async function run(provider: NetworkProvider) {
             },
             {
                 amount: toNano('0.1'),
-                ownerAddress: provider.sender().address as Address,
+                ownerAddress: Address.parse('EQAmK-0TO6nbvqbw1oaLLS3rHYr8DEB48PyAYJDnRLylYsUX'),
                 authorityAddress: provider.sender().address as Address,
                 content:
                     'https://raw.githubusercontent.com/optus-fi/nft/master/scripts/sbt-bug-collection/items/json/32.json',
@@ -270,7 +270,7 @@ export async function run(provider: NetworkProvider) {
             },
             {
                 amount: toNano('0.1'),
-                ownerAddress: provider.sender().address as Address,
+                ownerAddress: Address.parse('EQCMVejag6yVyH2l-SlHXjqlXpsmLcYjs4Tdh4lOk03Y6s4R'),
                 authorityAddress: provider.sender().address as Address,
                 content:
                     'https://raw.githubusercontent.com/optus-fi/nft/master/scripts/sbt-bug-collection/items/json/33.json',
@@ -278,7 +278,7 @@ export async function run(provider: NetworkProvider) {
             },
             {
                 amount: toNano('0.1'),
-                ownerAddress: provider.sender().address as Address,
+                ownerAddress: Address.parse('EQAS3_ED2YWUOthEDW7qifnqfnWkJY2hkJxPoKxAK5-0luKN'),
                 authorityAddress: provider.sender().address as Address,
                 content:
                     'https://raw.githubusercontent.com/optus-fi/nft/master/scripts/sbt-bug-collection/items/json/34.json',
@@ -286,7 +286,7 @@ export async function run(provider: NetworkProvider) {
             },
             {
                 amount: toNano('0.1'),
-                ownerAddress: provider.sender().address as Address,
+                ownerAddress: Address.parse('EQBaSV6G0lIa59p9AGRy6Irlaz0OXWdEFsTiW1CnBy3Uzt4_'),
                 authorityAddress: provider.sender().address as Address,
                 content:
                     'https://raw.githubusercontent.com/optus-fi/nft/master/scripts/sbt-bug-collection/items/json/35.json',
@@ -294,7 +294,7 @@ export async function run(provider: NetworkProvider) {
             },
             {
                 amount: toNano('0.1'),
-                ownerAddress: provider.sender().address as Address,
+                ownerAddress: Address.parse('EQA0GjjzGf4LiIZAxhDBShf2oJ1TljxXeGgYYnXOZ2NSBaBD'),
                 authorityAddress: provider.sender().address as Address,
                 content:
                     'https://raw.githubusercontent.com/optus-fi/nft/master/scripts/sbt-bug-collection/items/json/36.json',
@@ -302,7 +302,7 @@ export async function run(provider: NetworkProvider) {
             },
             {
                 amount: toNano('0.1'),
-                ownerAddress: provider.sender().address as Address,
+                ownerAddress: Address.parse('EQDkFMeWl29gxlimZkEBv4pbDVpNR2F4j5SArnJtVWqt_qqT'),
                 authorityAddress: provider.sender().address as Address,
                 content:
                     'https://raw.githubusercontent.com/optus-fi/nft/master/scripts/sbt-bug-collection/items/json/37.json',
@@ -310,19 +310,11 @@ export async function run(provider: NetworkProvider) {
             },
             {
                 amount: toNano('0.1'),
-                ownerAddress: provider.sender().address as Address,
+                ownerAddress: Address.parse('EQCths2iW7fBNDeujwatck1HOYZIKN0iuHN_A6cYv5AsUgio'),
                 authorityAddress: provider.sender().address as Address,
                 content:
                     'https://raw.githubusercontent.com/optus-fi/nft/master/scripts/sbt-bug-collection/items/json/38.json',
                 index: 38,
-            },
-            {
-                amount: toNano('0.1'),
-                ownerAddress: provider.sender().address as Address,
-                authorityAddress: provider.sender().address as Address,
-                content:
-                    'https://raw.githubusercontent.com/optus-fi/nft/master/scripts/sbt-bug-collection/items/json/39.json',
-                index: 39,
             },
         ],
     });
