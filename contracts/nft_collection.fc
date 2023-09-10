@@ -1,4 +1,6 @@
 #include "imports/stdlib.fc";
+#include "imports/op.fc";
+#include "imports/params.fc";
 
 ;; NFT collection smart contract v2
 ;; + return collection balance (op = 5)

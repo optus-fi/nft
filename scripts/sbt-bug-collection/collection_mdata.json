@@ -1,8 +1,8 @@
 {
     "name": "OPTUS SBT BUGs",
     "description": "A collection for members who help us identify any errors and vulnerabilities in the OPTUS platform.",
-    "image": "https://raw.githubusercontent.com/optus-fi/nft/main/scripts/sbt-bug-collection/image.jpg",
-    "cover_image": "https://raw.githubusercontent.com/optus-fi/nft/main/scripts/sbt-bug-collection/cover.jpg",
+    "image": "https://raw.githubusercontent.com/optus-fi/nft/master/scripts/sbt-bug-collection/image.jpg",
+    "cover_image": "https://raw.githubusercontent.com/optus-fi/nft/master/scripts/sbt-bug-collection/cover.jpg",
     "social_links": [
         "https://optus.fi",
         "https://t.me/optus_fi",
