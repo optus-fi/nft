@@ -3,7 +3,6 @@ import { compile, NetworkProvider } from '@ton-community/blueprint';
 import { NftCollection } from '../wrappers/NftCollection';
 
 export async function run(provider: NetworkProvider) {
-
     const ui = provider.ui();
 
     const nftCollection = provider.open(
@@ -30,7 +29,7 @@ export async function run(provider: NetworkProvider) {
             },
             {
                 amount: toNano('0.1'),
-                ownerAddress: Address.parse('EQAULcjDZ4TK9huUxR4Vl_Tfa8JRooU3bhvPrmHJHZIPGWkS'),
+                ownerAddress: Address.parse('EQCKbwti8yrEuUflWKCpFoAIHfFzLqjZab4DXpYVbgtnSNMO'),
                 authorityAddress: provider.sender().address as Address,
                 content:
                     'https://raw.githubusercontent.com/optus-fi/nft/master/scripts/sbt-bug-collection/items/json/3.json',
@@ -319,5 +318,5 @@ export async function run(provider: NetworkProvider) {
         ],
     });
 
-    ui.write("SBTs deployed!");
+    ui.write('SBTs deployed!');
 }
