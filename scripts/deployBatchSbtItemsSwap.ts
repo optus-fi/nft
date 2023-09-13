@@ -6,7 +6,7 @@ export async function run(provider: NetworkProvider) {
     const ui = provider.ui();
 
     const nftCollection = provider.open(
-        NftCollection.createFromAddress(Address.parse('EQBwTO1wu1rTpzlN1EVtPuPpJKrCLXR9XGe5q3tvD9A22x0v'))
+        NftCollection.createFromAddress(Address.parse('EQCJ8CR6d_1bhUBmUJY4zJwp1mP08Aotp59HmWNlwlqlVEnS'))
     );
 
     await nftCollection.sendBatchMint(provider.sender(), {
