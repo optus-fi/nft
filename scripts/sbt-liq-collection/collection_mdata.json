@@ -1,0 +1,12 @@
+{
+    "name": "OPTUS SBT LIQIDITY",
+    "description": "A collection for participants who provided liquidity as part of the competition on the OPTUS platform.",
+    "image": "https://raw.githubusercontent.com/optus-fi/nft/master/scripts/sbt-liq-collection/image.jpg",
+    "cover_image": "https://raw.githubusercontent.com/optus-fi/nft/master/scripts/sbt-liq-collection/cover.jpg",
+    "social_links": [
+        "https://optus.fi",
+        "https://t.me/optus_fi",
+        "https://x.com/OPTUS_dex",
+        "https://optusdex.medium.com"
+    ]
+}
