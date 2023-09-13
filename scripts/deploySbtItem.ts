@@ -11,11 +11,11 @@ export async function run(provider: NetworkProvider) {
 
     await nftCollection.sendMint(provider.sender(), {
         amount: toNano('0.1'),
-        itemOwnerAddress: provider.sender().address as Address,
+        itemOwnerAddress: Address.parse('EQDNbXPLabqHcfpRMAQve6oRnJ4fXdyra6kWm2ZLJGKS3MWi'),
         itemAuthorityAddress: provider.sender().address as Address,
         itemContent:
-            'https://raw.githubusercontent.com/optus-fi/nft/master/scripts/sbt-bug-collection/items/json/0.json',
-        itemIndex: 0,
+            'https://raw.githubusercontent.com/optus-fi/nft/master/scripts/sbt-bug-collection/items/json/39.json',
+        itemIndex: 39,
     });
 
     ui.write('SBT deployed!');

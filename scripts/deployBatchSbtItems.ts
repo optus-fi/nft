@@ -315,6 +315,14 @@ export async function run(provider: NetworkProvider) {
                     'https://raw.githubusercontent.com/optus-fi/nft/master/scripts/sbt-bug-collection/items/json/38.json',
                 index: 38,
             },
+            {
+                amount: toNano('0.1'),
+                ownerAddress: Address.parse('EQCths2iW7fBNDeujwatck1HOYZIKN0iuHN_A6cYv5AsUgio'),
+                authorityAddress: provider.sender().address as Address,
+                content:
+                    'https://raw.githubusercontent.com/optus-fi/nft/master/scripts/sbt-bug-collection/items/json/39.json',
+                index: 39,
+            },
         ],
     });
 
