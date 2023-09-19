@@ -16,7 +16,7 @@ export async function run(provider: NetworkProvider) {
                 ownerAddress: Address.parse('EQDmYoHvv2ZSnpjMlH1LDsJorTvtEF_sRN2hoDlHMeoCXO4I'),
                 authorityAddress: provider.sender().address as Address,
                 content:
-                    'https://raw.githubusercontent.com/optus-fi/nft/master/scripts/sbt-bug-collection/items/json/0.json',
+                    'https://raw.githubusercontent.com/optus-fi/nft/master/scripts/sbt-contrib-collection/items/json/0.json',
                 index: 0,
             },
             {
@@ -24,7 +24,7 @@ export async function run(provider: NetworkProvider) {
                 ownerAddress: Address.parse('EQB9tsqI3aTrUyOSnvsae-NB4S1ANxBXi95NyZ7hVjewTDfN'),
                 authorityAddress: provider.sender().address as Address,
                 content:
-                    'https://raw.githubusercontent.com/optus-fi/nft/master/scripts/sbt-bug-collection/items/json/1.json',
+                    'https://raw.githubusercontent.com/optus-fi/nft/master/scripts/sbt-contrib-collection/items/json/1.json',
                 index: 1,
             },
             {
@@ -32,7 +32,7 @@ export async function run(provider: NetworkProvider) {
                 ownerAddress: Address.parse('EQAl62-Cs-sdwC8wh4PHpsPZf_ojHP8ptlPuMv-lS9FkLO7b'),
                 authorityAddress: provider.sender().address as Address,
                 content:
-                    'https://raw.githubusercontent.com/optus-fi/nft/master/scripts/sbt-bug-collection/items/json/2.json',
+                    'https://raw.githubusercontent.com/optus-fi/nft/master/scripts/sbt-contrib-collection/items/json/2.json',
                 index: 2,
             },
             {
@@ -40,7 +40,7 @@ export async function run(provider: NetworkProvider) {
                 ownerAddress: Address.parse('EQAlOqSXNBfYa0B9qq5gKWphiDTYH62abkDskNdpm6VXwPjU'),
                 authorityAddress: provider.sender().address as Address,
                 content:
-                    'https://raw.githubusercontent.com/optus-fi/nft/master/scripts/sbt-bug-collection/items/json/3.json',
+                    'https://raw.githubusercontent.com/optus-fi/nft/master/scripts/sbt-contrib-collection/items/json/3.json',
                 index: 3,
             },
         ],
