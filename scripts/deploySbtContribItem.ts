@@ -14,7 +14,7 @@ export async function run(provider: NetworkProvider) {
         itemOwnerAddress: Address.parse('EQCv4bQyZQ5Rh4xa8MmvX3TZTDqoWQR_ec15BWc43kZzeLZk'),
         itemAuthorityAddress: provider.sender().address as Address,
         itemContent:
-            'https://raw.githubusercontent.com/optus-fi/nft/master/scripts/sbt-bug-collection/items/json/4.json',
+            'https://raw.githubusercontent.com/optus-fi/nft/master/scripts/sbt-contrib-collection/items/json/4.json',
         itemIndex: 4,
     });
 
